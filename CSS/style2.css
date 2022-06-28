@@ -1,0 +1,358 @@
+/* Màn hình kích thước nhở hơn 576px */
+@media screen and (max-width: 576px) {
+   /* Number */
+   .number__item i {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+   }
+
+   .number__item span {
+    font-size: 22px !important;
+   }
+
+   .number__item p {
+    font-size: 10px !important;
+   }
+
+   /* Story */
+   .story__item {
+    margin: 0 !important;
+   }
+
+   .story__item i {
+    font-size: 40px;
+   }
+
+   .about__itemtext {
+    margin: 0;
+   }
+
+   /* Portfolio */
+   .portfolio__title h2 {
+    font-size: 50px;
+   }
+   
+    /* Plan */
+   .plan__item {
+    margin: 0 !important;
+    margin-left: 10px;
+   }
+
+   
+   
+    /* Blog */
+    .blog__text h3 {
+        font-size: 21px;
+    }
+
+    .blog__footer p {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer__form input {
+        font-size: 12px;
+    }
+
+    .btn-email {
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    .footer__form form {
+        margin-left: 12px;
+    }
+
+    .footer__bottomul li i {
+        display: none;
+    }
+
+    .footer__bottomfirst {
+        margin-left: 45px !important;
+    }
+}
+
+
+
+/* màn hình kích thước nhỏ hơn 768px */
+@media screen and (max-width: 768px) {
+    .header__container {
+        padding: 15px;
+    }
+
+    .header__ul {
+        display: none;
+    }
+
+    /* Carousel css */
+    .carousel__container {
+        flex-direction: column;
+    }
+
+    .carousel__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .carousel__title h2 {
+        font-size: 55px;
+    }
+
+    .carousel__content p {
+        font-size: 14px;
+    }
+
+    .carousel__right {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .carousel__img {
+        margin: 0;
+    }
+
+    .carousel__img img {
+        width: 100%;
+    }
+
+    /* Service */
+    .services__title h2 {
+        font-size: 65px;
+    }
+
+    .services__row {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    /* About */
+
+    .about__container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: normal;
+        position: relative;
+    }
+
+    .about__left {
+        position: unset;
+        width: 100%;
+    }
+
+    .about__right {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .about__title h2 {
+        font-size: 50px;
+    }
+
+    .about__ul {
+        text-align: left;
+    }
+
+    /* Number */
+    .number__item span {
+        font-size: 30px;
+    }
+
+    .number__item p {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    /* Story */
+    .story__container {
+        flex-direction: column;
+    }
+
+    .story__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .story__lefttitle h2 {
+        font-size: 50px;
+    }
+
+    .story__right {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .story__rightimg {
+        margin: 0;
+    }
+
+    /* Plan */
+    .plan__title h2 {
+        font-size: 55px;
+    }
+
+    .plan__container {
+        grid-template-columns: 1fr;
+    }
+
+    .plan__item {
+        margin: 30px;
+    }
+
+    /* Blog */
+    .special__col {
+        display: none;
+    }
+
+    .blog__item span {
+       display: none;
+    }
+
+    /* Footer */
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+
+    }
+
+    .footer__text h2 {
+        text-align: center;
+    }
+
+    .footer__form {
+        margin-right: 100px;
+        width: 64%;
+    }
+
+    .footer__bottomsecond {
+        display: none;
+    }
+
+    .footer__bottomfirst {
+        margin-left: 70px;
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer__copyrighttext span {
+        font-size: 15px;
+    }
+
+    .footer__copyrighttext span::after,
+    .footer__copyrighttext span::before {
+        font-size: 15px;
+    }
+
+    .footer__copyrightcontainer {
+        flex-direction: column;
+    }
+
+    .footer__copyrighticon {
+        margin-top: 5px;
+    }
+}
+
+
+/* màn hình kích thước lớn hơn 768px và nhỏ hơn 992px */
+@media screen and (min-width: 769px) and (max-width:992px) {
+    /* Header */
+    .header__button {
+        display: none;
+    }
+
+    .header__li a {
+        font-size: 10px;
+    }
+
+    /* Carousel css */
+    .carousel__img {
+        width: 100%;
+        margin: 0;
+        margin-top: 50%;
+    }
+
+    .carousel__img img {
+        width: 100%;
+    }
+
+    /* Service */
+    .services__row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Story */
+    .story {
+        margin: 0 50px ;
+    }
+
+    .about__itemtext h3 {
+        font-size: 17px;
+    }
+
+    .story__item i {
+        font-size: 37px;
+    }
+    
+    .story__rightimg {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 100%;
+    }
+
+    .story__rightimg img {
+        width: 100%;
+    }
+
+    /* Plan */
+    .plan__container {
+        grid-template-columns: 1fr;
+    }
+
+    .plan__item  {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    /* Blog */
+    .blog__item span {
+        display: none;
+    }
+
+
+    /* Footer */
+    .footer__bottom  {
+        margin: 0 30px;
+    }
+
+    .footer__bottomfirst .footer__bottomul li i {
+        width: 15px;
+        height: 0;
+        background: none;
+    }
+}
+
+
+/* Màn hình kích thước lớn hơn 992px, nhỏ hơn 1200px */
+@media screen and (min-width: 993px) and (max-width:1200px) {
+    /* Carousel */
+    .carousel__img {
+        margin: 0;
+    }
+
+    .carousel__img   img{
+        width: 100%;
+    }
+
+    /* Story */
+    .story__rightimg {
+        width: 100%;
+    }
+
+    /* Blog */
+    .blog__item span {
+        display: none;
+    }
+}
